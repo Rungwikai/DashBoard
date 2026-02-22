@@ -1,11 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>E-Sports Player Performance</title>
+    <style>
+       
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+
+       
+        header {
+            background-color: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+            letter-spacing: 1px;
+        }
+
+        
+        .dashboard-container {
+            max-width: 1200px;
+            margin: 30px auto;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            padding: 20px;
+        }
+
+      
+        .dashboard-container iframe {
+            width: 100%;
+            height: 850px;
+            border: none;
+            border-radius: 8px;
+        }
+
+       
+        @media (max-width: 768px) {
+            .dashboard-container {
+                margin: 15px;
+                padding: 10px;
+            }
+            .dashboard-container iframe {
+                height: 600px;
+            }
+        }
+    </style>
 </head>
 <body>
-    
+
+    <header>
+        <h1>🎮 E-Sports Performance Dashboard</h1>
+    </header>
+
+    <main>
+        <div class="dashboard-container">
+            <p style="text-align: center; color: #888;"><iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/845df01c-2fbc-45d4-96cb-03f7b65a30db/page/1NjpF" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe></p> </div>
+    </main>
+
 </body>
 </html>
